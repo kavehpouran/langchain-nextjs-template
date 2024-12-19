@@ -31,7 +31,13 @@ To start with the basic examples, you'll just need to add your OpenAI API key.
 
 Because this app is made to run in serverless Edge functions, make sure you've set the `LANGCHAIN_CALLBACKS_BACKGROUND` environment variable to `false` to ensure tracing finishes if you are using [LangSmith tracing](https://docs.smith.langchain.com/).
 
-Next, install the required packages using your preferred package manager (e.g. `yarn`).
+Next, install the required packages using your preferred package manager (e.g. `yarn`) using
+
+```bash
+yarn install
+```
+
+Alternatively using npm install.
 
 Now you're ready to run the development server:
 
